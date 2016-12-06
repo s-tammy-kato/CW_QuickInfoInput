@@ -10,7 +10,7 @@
         "128": "images/icon_128.png"
     },
     "content_scripts": [{
-        "matches": ["*://*.chatwork.com/*","*://chatwork.com/*"],
+        "matches": ["*://*.chatwork.com/*","*://chatwork.com/*","*://kcw.kddi.ne.jp/*"],
         "js": ["scripts/core.js"]
     }]
 }
