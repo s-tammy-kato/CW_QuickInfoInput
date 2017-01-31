@@ -36,6 +36,7 @@ function getButtonEl(args){
     el.setAttribute("role", "button");
     el.className = "_showDescription";
     el.style.display = "inline-block";
+    el.style.margin = "0 5px";
 
     // ボタンによって変える部分
     el.id = args.id;
